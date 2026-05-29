@@ -1,8 +1,8 @@
 # 🇨🇳 中国国务院政策检索 Skill
 
-> CherryStudio 技能包 — 直接对接 gov.cn 官方接口，实时检索国务院政策文件
+> 直接对接 gov.cn 官方接口，实时检索国务院政策文件的 Agent Skill
 
-本 Skill 将 [China-Central-Policy-MCP](https://github.com/guangxiangdebizi/China-Central-Policy-MCP) 的核心能力封装为 CherryStudio 可直接使用的技能。**零外部依赖**，开箱即用。
+本 Skill 将 [China-Central-Policy-MCP](https://github.com/guangxiangdebizi/China-Central-Policy-MCP) 的核心逻辑封装为可直接调用的脚本。**零外部依赖**，开箱即用。
 
 ## ✨ 功能特性
 
@@ -16,10 +16,10 @@
 
 ## 📦 安装方法
 
-### 方式一：CherryStudio 安装
+### 方式一：作为 Agent Skill 安装
 
-1. 将 `cn-policy-search` 文件夹复制到 CherryStudio 的 `Data/Skills/` 目录
-2. 在 CherryStudio 中注册该 Skill 即可启用
+1. 将 `cn-policy-search` 文件夹复制到 Agent 的 Skills 目录
+2. 在 Agent 中注册该 Skill 即可启用
 
 ### 方式二：手动调用
 
@@ -76,4 +76,4 @@ cn-policy-search/
 
 ## 🙏 致谢
 
-基于 [guangxiangdebizi/China-Central-Policy-MCP](https://github.com/guangxiangdebizi/China-Central-Policy-MCP) 的核心逻辑重新封装为 CherryStudio Skill 格式。
+基于 [guangxiangdebizi/China-Central-Policy-MCP](https://github.com/guangxiangdebizi/China-Central-Policy-MCP) 的核心逻辑重新封装为 Agent Skill 格式。
